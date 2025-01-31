@@ -24,7 +24,7 @@
         "react-datepicker": "^7.3.0",
         "react-dom": "^18",
         "react-toastify": "^10.0.5",
-        "zod": "^3"
+        "zod": "^3.24.1"
     },
     "devDependencies": {
         "@rollup/plugin-node-resolve": "^15.2.3",

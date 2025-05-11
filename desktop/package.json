@@ -37,7 +37,7 @@
         "lru-cache": "^11.0.2",
         "next-electron-server": "^1.0.0",
         "node-stream-zip": "^1.15.0",
-        "onnxruntime-node": "^1.20.1"
+        "onnxruntime-node": "^1.22.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.17.0",

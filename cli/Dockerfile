@@ -14,7 +14,7 @@ COPY . .
 RUN --mount=type=cache,target=/root/.cache/go-build \
   go build -o ente-cli main.go
 
-FROM alpine:3.21
+FROM alpine:3.23.2
 RUN apk add libsodium-dev
 COPY --from=builder /etc/ente/ente-cli .
 
